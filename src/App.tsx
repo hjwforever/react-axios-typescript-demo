@@ -15,7 +15,7 @@ class App extends Component {
           {/* <Link to={"/tutorials"}  className="navbar-brand">
             hjwforever
           </Link> */}
-          <a href={"https://github.com/hjwforever"} className="navbar-brand" target="_blank" rel="noreferrer">
+          <a href={"https://github.com/hjwforever/react-axios-typescript-demo"} className="navbar-brand" target="_blank" rel="noreferrer">
             hjwforever
           </a>
           <div className="navbar-nav mr-auto">
