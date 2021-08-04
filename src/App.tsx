@@ -12,9 +12,12 @@ class App extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand navbar-dark bg-dark">
-          <Link to={"/tutorials"} className="navbar-brand">
+          {/* <Link to={"/tutorials"}  className="navbar-brand">
             hjwforever
-          </Link>
+          </Link> */}
+          <a href={"https://github.com/hjwforever"} className="navbar-brand" target="_blank" rel="noreferrer">
+            hjwforever
+          </a>
           <div className="navbar-nav mr-auto">
             <li className="nav-item">
               <Link to={"/tutorials"} className="nav-link">
